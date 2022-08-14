@@ -1,12 +1,43 @@
+
+
 body {
     font-size: 15pt;
     background-color: orange;
 }
-header{
+.cabeza{
   background-color: skyblue;
+  background-image: url("assets/fotos/guitara.webp");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-nav{
+.titulo1{
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+.titulo2{
+  background-color: lightgoldenrodyellow;
+  padding-left: 100px;
+  width: 30%;
+  margin-left:100px; 
+  border:7px solid red;
+  border-radius: 20px;
+}
+.navegador{
   background-color: green;
+  
+}
+ul{
+  color: wheat;
+  list-style: none;
+  text-align: center;
+  
+}
+.navegador ul li a{
+  text-decoration: none;
+  color: white;
+  
 }
 section{
   background-color: rosybrown;
